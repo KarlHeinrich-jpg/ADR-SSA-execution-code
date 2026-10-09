@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the archived release (Zenodo DOI) and the accompanying manuscript."
+title: "ADR-SSA: An Enhanced Sparrow Search Algorithm for Complex Optimization and Data-Driven Forecasting (Execution Code)"
+abstract: >-
+  MATLAB execution code for ADR-SSA, an enhanced Sparrow Search Algorithm that combines dynamic
+  reverse learning with adaptive t-distribution mutation. The package contains the ADR-SSA
+  implementation, the CEC2022 comparison and component-ablation scripts, the constrained
+  engineering design experiments (welded beam and pressure vessel problems), the convergence-curve
+  and population-diversity analysis utilities, and the compiled CEC2022 benchmark suite for
+  Windows x64. Results reported in the manuscript cover the CEC2022 benchmark, CEC2017 functions
+  at 30/50/100 dimensions, two constrained engineering design problems, and an ADR-SSA-optimized
+  CatBoost model for provincial carbon emission forecasting.
+type: software
+authors:
+  - family-names: "Li"
+    given-names: "Chunbing"
+    affiliation: "School of Economics, Beijing Technology and Business University, Beijing 102488, China"
+  - family-names: "Wang"
+    given-names: "Jiayi"
+    affiliation: "Digital College, Beijing Technology and Business University, Beijing 102488, China"
+  - family-names: "Chen"
+    given-names: "Zhenlin"
+    affiliation: "Graduate School, Lingnan University, Hong Kong SAR, China"
+  - family-names: "Qiu"
+    given-names: "Xuerui"
+    affiliation: "School of Economics, Beijing Technology and Business University, Beijing 102488, China"
+  - family-names: "Zhang"
+    given-names: "Yilin"
+    affiliation: "School of Economics, Beijing Technology and Business University, Beijing 102488, China"
+  - family-names: "Wang"
+    given-names: "Yile"
+    affiliation: "School of Economics, Beijing Technology and Business University, Beijing 102488, China"
+    orcid: "https://orcid.org/0009-0008-3195-5631"
+keywords:
+  - sparrow search algorithm
+  - metaheuristic optimization
+  - dynamic reverse learning
+  - adaptive t-distribution mutation
+  - CEC2022 benchmark
+  - constrained engineering optimization
+  - carbon emission forecasting
+  - CatBoost
+  - hyperparameter optimization
+license: CC-BY-4.0
+repository-code: "https://github.com/KarlHeinrich-jpg/ADR-SSA-execution-code"
+# version: "1.0.0"        # set when the archived release is created
+# doi: "10.5281/zenodo.XXXXXXX"   # set from the Zenodo record
+# date-released: "YYYY-MM-DD"     # set when the archived release is created

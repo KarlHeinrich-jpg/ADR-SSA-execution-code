@@ -1,0 +1,57 @@
+{
+  "title": "ADR-SSA: An Enhanced Sparrow Search Algorithm for Complex Optimization and Data-Driven Forecasting (Execution Code)",
+  "description": "<p>MATLAB execution code accompanying the manuscript <em>\"ADR-SSA: An Enhanced Sparrow Search Algorithm for Complex Optimization and Data-Driven Forecasting\"</em>. ADR-SSA enhances the Sparrow Search Algorithm with two coordinated mechanisms: dynamic reverse learning, which repositions the worst-performing individuals relative to the evolving search region, and adaptive t-distribution mutation, which perturbs elite individuals with a scale that adapts during iteration.</p><p><strong>Contents:</strong> the ADR-SSA implementation (<code>code/ADR_SSA.m</code>); CEC2022 comparison and component-ablation scripts (<code>Ablation.m</code>, <code>CEC2022_DRL_ATM_ExcelOnly.m</code>); constrained engineering design experiments on the welded beam and pressure vessel problems with seven optimizers (<code>engineering.m</code>, <code>plot_engineering.m</code>); convergence-curve plotting for the forecasting experiments (<code>machine.m</code>); population diversity / exploration-exploitation analysis (<code>Dive_Explor_Exploit.m</code>); the compiled CEC2022 benchmark suite for Windows x64 (<code>cec22_func.mexw64</code>); and utility functions for initialization and Levy flights.</p><p><strong>Requirements:</strong> MATLAB (R2020a or later), Statistics and Machine Learning Toolbox, and Microsoft Windows x64 for the bundled benchmark MEX file. Comparison optimizers and the CEC2022 toolbox sources are third-party and are not redistributed; see the repository README for the list of files to add before running the experiments.</p>",
+  "creators": [
+    {
+      "name": "Li, Chunbing",
+      "affiliation": "School of Economics, Beijing Technology and Business University, Beijing 102488, China"
+    },
+    {
+      "name": "Wang, Jiayi",
+      "affiliation": "Digital College, Beijing Technology and Business University, Beijing 102488, China"
+    },
+    {
+      "name": "Chen, Zhenlin",
+      "affiliation": "Graduate School, Lingnan University, Hong Kong SAR, China"
+    },
+    {
+      "name": "Qiu, Xuerui",
+      "affiliation": "School of Economics, Beijing Technology and Business University, Beijing 102488, China"
+    },
+    {
+      "name": "Zhang, Yilin",
+      "affiliation": "School of Economics, Beijing Technology and Business University, Beijing 102488, China"
+    },
+    {
+      "name": "Wang, Yile",
+      "affiliation": "School of Economics, Beijing Technology and Business University, Beijing 102488, China",
+      "orcid": "0009-0008-3195-5631"
+    }
+  ],
+  "keywords": [
+    "sparrow search algorithm",
+    "metaheuristic optimization",
+    "dynamic reverse learning",
+    "adaptive t-distribution mutation",
+    "CEC2022 benchmark",
+    "constrained engineering optimization",
+    "carbon emission forecasting",
+    "CatBoost",
+    "hyperparameter optimization"
+  ],
+  "license": {
+    "id": "CC-BY-4.0"
+  },
+  "upload_type": "software",
+  "access_right": "open",
+  "language": "eng",
+  "version": "1.0.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/KarlHeinrich-jpg/ADR-SSA-execution-code",
+      "relation": "is supplement to",
+      "scheme": "url",
+      "resource_type": "software"
+    }
+  ]
+}
