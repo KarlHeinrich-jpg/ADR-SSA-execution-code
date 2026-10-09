@@ -1,5 +1,7 @@
 # ADR-SSA: An Enhanced Sparrow Search Algorithm for Complex Optimization and Data-Driven Forecasting
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23262819.svg)](https://doi.org/10.5281/zenodo.23262819)
+
 Execution code for the manuscript *"ADR-SSA: An Enhanced Sparrow Search Algorithm for Complex
 Optimization and Data-Driven Forecasting"*.
 
@@ -101,7 +103,19 @@ caller also tolerates other output arities.
 
 ## Citation
 
-If you use this code, please cite the manuscript:
+If you use this code, please cite the archived release and the accompanying manuscript.
+
+**Archived code (v1.0.0, Zenodo):**
+
+> Li, C., Wang, J., Chen, Z., Qiu, X., Zhang, Y., & Wang, Y. (2026). *ADR-SSA: An Enhanced Sparrow
+> Search Algorithm for Complex Optimization and Data-Driven Forecasting (Execution Code)* (v1.0.0)
+> [Computer software]. Zenodo. <https://doi.org/10.5281/zenodo.23262819>
+
+The DOI above is the immutable archive of version v1.0.0; <https://doi.org/10.5281/zenodo.23262818>
+always resolves to the most recent archived version. Machine-readable metadata is provided in
+`CITATION.cff`, and the record page is <https://zenodo.org/records/23262819>.
+
+**Manuscript:**
 
 > Li, C., Wang, J., Chen, Z., Qiu, X., Zhang, Y., & Wang, Y. *ADR-SSA: An Enhanced Sparrow Search
 > Algorithm for Complex Optimization and Data-Driven Forecasting.*

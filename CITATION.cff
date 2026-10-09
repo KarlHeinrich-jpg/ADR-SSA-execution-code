@@ -43,6 +43,6 @@ keywords:
   - hyperparameter optimization
 license: CC-BY-4.0
 repository-code: "https://github.com/KarlHeinrich-jpg/ADR-SSA-execution-code"
-# version: "1.0.0"        # set when the archived release is created
-# doi: "10.5281/zenodo.XXXXXXX"   # set from the Zenodo record
-# date-released: "YYYY-MM-DD"     # set when the archived release is created
+version: "v1.0.0"
+doi: "10.5281/zenodo.23262819"
+date-released: "2026-10-09"
