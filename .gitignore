@@ -1,0 +1,24 @@
+# MATLAB
+*.asv
+*.m~
+*.slxc
+slprj/
+
+# Generated experiment output (created next to the scripts when they run)
+CEC2022_F*_SSA_Comparison/
+CEC2022_DRL_ATM_F1_to_F12_ExcelOnly/
+WBDP_PVDP_PaperStyle/
+WBDP_PVDP_ADR_SSA_BestCurve/
+机器学习迭代曲线图/
+
+# Generated figures
+*.eps
+*.svg
+*.png
+*.fig
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
